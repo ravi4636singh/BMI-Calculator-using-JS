@@ -102,4 +102,13 @@ html {
 .button-wrapper .reset {
   background-color: #00ad5e;
   display: none;
+}
+
+@media (max-width: 500px) {
+  .container > div {
+    width: 90%;
+  }
+  .user-inputs .wrapper .label {
+    font-size: 1.6rem;
+  }
 }/*# sourceMappingURL=style.css.map */
